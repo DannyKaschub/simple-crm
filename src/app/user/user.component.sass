@@ -2,3 +2,32 @@
     position: absolute
     right: 56px
     bottom: 56px
+
+mat-card
+    padding: 32px 0
+
+.user-table
+    border-collapse: collapse
+    th
+        color: rgba(0, 0, 0, .4)
+        text-align: start
+
+    tr
+        border-bottom: 1px solid rgba(0, 0, 0, .4)
+        cursor: pointer
+
+        &:hover
+            background-color: rgba(0, 0, 0, .04)
+        &:first-child
+            cursor: unset
+            &:hover
+                background-color: unset
+        &:last-child
+            border-bottom: 0
+        td
+            height: 48px
+            &:first-child
+                padding-left: 16px
+        th
+            &:first-child
+                padding-left: 16px
